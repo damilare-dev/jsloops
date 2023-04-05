@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOP</title>
+</head>
+<body>
+    
+
+    <script>
+
+            const nums =  [10, 120, 200, 5];
+
+                        // USING FOR LOOP
+
+            let maxNumber = nums[0];
+            let minNumber = nums[0];
+            const numsLength = nums.length;
+                for (let number = 0; number < numsLength; number++ )
+                if (nums[number] > maxNumber){
+                    maxNumber = nums[number]
+                }
+                console.log(`The maximum number in the array is ${maxNumber}`)
+
+                for (let number = 0; number < numsLength; number++ )
+                if (nums[number] < minNumber){
+                    minNumber = nums[number]
+                }
+                console.log(`The minimum number in the array is ${minNumber}`)
+                console.log(`The addition of the maximum and minimun numner is ${maxNumber + minNumber} and the division is ${(maxNumber + minNumber) / 2} ` )
+
+
+                
+                                     //USING WHILE LOOP
+
+            //     const numbers =  [10, 120, 200, 5];
+            //     let max = numbers[0];
+            //     i = 0
+            //     while(i < numbers.length) {
+            //     if (numbers[i] > max) {
+            //         max = numbers[i];
+            //     }
+            //      i = i + 1; 
+            //     console.log(`the maximum no is ${max}`)
+            //  }
+
+
+    </script>
+</body>
+</html>
